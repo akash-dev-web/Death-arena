@@ -1,0 +1,140 @@
+body {
+    display: block;
+    margin: 10px;
+}
+#gameTitle {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    padding: 20px;
+    letter-spacing: 4px;
+    color: white;
+    border: 5px solid #558dca;
+    background-color: #022449;
+}
+.arena {
+    background-color: #f27d42;
+    border: 5px solid black;
+    border-radius:20px;
+    height: 350px;
+    width: auto;
+    overflow: hidden;
+    align-content: center;
+    margin-top:10px;
+}
+#p1banner {
+    position: relative;
+    float: left;
+    height: 97%;
+    width: 70px;
+    border: 2px solid #558dca;
+    margin: 2px;
+    writing-mode:vertical-rl;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    color: white;
+    background-color: #022449;
+    border-radius: 15px;
+}
+#p1 {
+    position: relative;
+    float: left;
+    top: 35%;
+    height: 70px;
+    width: 70px;
+    margin-left: 40px;
+}
+#p2banner {
+    position: relative;
+    float: right;
+    height: 97%;
+    width: 70px;
+    margin: 2px;
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    color: white;
+    border: 2px solid #558dca;
+    background-color: #022449;
+    border-radius: 15px;
+}
+#p2 {
+    position: relative;
+    float: right;
+    top: 35%;
+    transform:scaleX(-1);
+    height: 70px;
+    width: 70px;
+    margin-right: 40px;
+}
+#p1FireScore {
+    position: relative;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+}
+#p2FireScore{
+    position: relative;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+#ShootBtn {
+    background-color: #f27d42;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+#resetBtn {
+    background-color: #022449;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 25px;
+    cursor: pointer;
+}
+.Score-Board {
+    border: 1px solid #558dca;
+    background-color: #022449;
+    color: white;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 35% 35% auto;
+}
+.grid-item {
+    background-color: #f27d42;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.result {
+    border: 1px solid #558dca;
+    background-color: #022449;
+    padding: 2px;
+    color: white;
+    display: grid;
+    font-weight: bold;
+}
+.result-item {
+    background-color: #558dca;
+    border: 1px solid #022449;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}

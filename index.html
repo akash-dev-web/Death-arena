@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div id="gameTitle">Death Arena</div>
+    <div class="arena">
+
+        <!------------- Player 1 ---------------->
+        <div id="p1banner"><h2>Player 1</h2></div>
+        <div id="p1">
+        <img src="https://cdn.pixabay.com/photo/2016/06/24/13/55/paintball-1477264_960_720.png" alt="Player 1" height="100px" width="100px">   
+        </div>
+        <div id="p1banner23">
+        <span id="p1FireScore"></span>
+        </div>
+
+ <!-------------- Player 2 -------------->
+        <div id="p2banner"><h2>Player 2</h2></div>
+        <div id="p2">
+        <img src="images/p2.png" alt="Player 1" height="100px" width="100px">
+        
+     </div>
+     <div id="p2banner24">
+        <span id="p2FireScore"></span>
+    </div>
+    </div>
+
+      <!-- Assigning Buttons  -->
+        <br>
+      <button id="ShootBtn" onclick="shootBtn()">Shoot</button> 
+      
+      <span>
+          <button id="resetBtn" onclick="resetBtn()">Reset Button</button>
+        </span>
+      
+      <br><br>
+      
+      <div class="Score-Board">
+          <div class="grid-item" id="grid-item-1">Player 1</div>
+          <div class="grid-item" id="grid-item-3">Win</div>
+          <div class="grid-item" id="grid-item-4">0</div>
+          <div class="grid-item" id="grid-item-5">Player 2</div>
+          <div class="grid-item" id="grid-item-7">Win</div>
+          <div class="grid-item" id="grid-item-8">0</div>
+          
+      </div>
+
+      <div class="result">
+        <div class="result-item" id="grid-item-9"></div>
+      </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
